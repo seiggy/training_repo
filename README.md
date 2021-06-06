@@ -11,3 +11,14 @@ This repository contains branches and conflicts on purpose for use in git traini
 |Trunk Based Development Guide|[Trunk Based Development](https://trunkbaseddevelopment.com)|
 |Git Credential Manager Core|[GitHub - microsoft/Git-Credential-Manager-Core: Secure, cross-platform Git credential storage with authentication to GitHub, Azure Repos, and other popular Git hosting services.](https://github.com/microsoft/Git-Credential-Manager-Core)|
 
+## Suggested Git Settings
+`git config --global branch.autosetuprebase always`
+`git config --global core.editor "code --wait"`
+`git config --global mergetool.vscode.cmd "code --wait $MERGED"`
+`git config --global merge.tool vscode`
+`git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"`
+`git config --global diff.tool vscode`
+
+## Suggested Git Tooling
+[Posh-Git](https://github.com/dahlbyk/posh-git#installation) - Powershell extension for Git
+[Visual Studio Code](https://code.visualstudio.com/) - Best Lightweight Editor for resolving conflicts, merge views, commit messages
