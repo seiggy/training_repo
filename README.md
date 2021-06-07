@@ -22,3 +22,5 @@ This repository contains branches and conflicts on purpose for use in git traini
 ## Suggested Git Tooling
 [Posh-Git](https://github.com/dahlbyk/posh-git#installation) - Powershell extension for Git
 [Visual Studio Code](https://code.visualstudio.com/) - Best Lightweight Editor for resolving conflicts, merge views, commit messages
+
+Sample Commit Demo
