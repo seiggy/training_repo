@@ -10,7 +10,7 @@ namespace GitTraining
         {
             Console.Write(">");
             var input = Console.ReadLine();
-            Console.WriteLine(await Calculator.Parse(input));
+            Console.WriteLine($"Result: {await Calculator.Parse(input)}");
 
             Console.ReadKey();
         }
