@@ -13,6 +13,8 @@ namespace GitTraining
             Console.ForegroundColor = ConsoleColor.White;
             var input = Console.ReadLine();
             Console.ForegroundColor = ConsoleColor.Cyan;
+
+
             Console.WriteLine(await Calculator.Parse(input));
             
             Console.ReadKey();
