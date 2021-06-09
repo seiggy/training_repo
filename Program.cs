@@ -8,7 +8,7 @@ namespace GitTraining
     {
         static async Task Main(string[] args)
         {
-            Console.ForegroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write("§");
             Console.ForegroundColor = ConsoleColor.White;
             var input = Console.ReadLine();
